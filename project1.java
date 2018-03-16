@@ -90,6 +90,7 @@ public class project1
         } 
 
     }
+//X Print to console each time you merge
     //low and high are the indexes 0 and n-1 because n is length of data
     //merge recursive function to call merge function
     public static int [] merge (int[] data, int low, int high, int k) 
