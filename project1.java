@@ -1,3 +1,7 @@
+//comments for grading, with no indent
+//X means this part makes your program unable to work; you may lose points for this
+//comments without X are suggestions
+
 import java.io.*;
 import java.util.*;
 
@@ -92,6 +96,7 @@ public class project1
         {
             if (low < high) 
             {
+//X The remainder(last one) is a different situation
                 for (int i = 0; i < k; i++) 
                 {
                     //call merge with appropriate parameters
@@ -108,6 +113,7 @@ public class project1
     {
         int n = data.length;
 
+//X incorrect
         //if k is odd, will split into k-1 subarrays
         if (k/n != 0)
         {
@@ -135,7 +141,7 @@ public class project1
             int lowindex = 0;
             int highindex = n/k;
             int y = 0;
-
+//X You split in k-way, but why use 2-way here
             //not exactly k way-- this is similar to binary
             while (lowindex<=highindex)
             {
@@ -186,6 +192,8 @@ public class project1
         int ind = 0;
         int x=0;
         int y=0;
+//X A good idea but that's not how merge sort works
+//You need a pointer and find min each time
         while (ind < data.length-1)
         {
             //runs k times--attempt at merging k sorted arrays
