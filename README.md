@@ -1,7 +1,3 @@
-# Project 1
-
-The description for this project can be found on Canvas. For convenience, the description is also listed here.
-
 ## Description
 
 Your first programming project is to implement k-way merge sort for any `k>=2`, using *only* int arrays. You may *not* use Lists, ArrayLists, or Collections.  You may use Arrays class to print the content of the array. For the full credit, you may *not* create more than one int array. In your source code, _explain how you implemented k-way merge in comments_ right above your merge method. Submission is through your github repository.
